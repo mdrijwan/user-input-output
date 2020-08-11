@@ -1,0 +1,25 @@
+{
+  "name": "iprice-tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "OOP"
+  ],
+  "author": "Md Rijwan Razzaq Matin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "typescript": "^3.9.7",
+    "@types/readline-sync": "^1.4.3"
+  },
+  "dependencies": {
+    "fast-csv": "^4.3.1",
+    "readline-sync": "^1.4.10",
+    "ts-loader": "^8.0.2"
+  }
+}
