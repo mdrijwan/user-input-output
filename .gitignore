@@ -2,7 +2,7 @@
 *.js
 
 # Output files
-.csv
+*.csv
 
 # IDE - VSCode
 .vscode/*
