@@ -1,0 +1,11 @@
+# Compiled files
+*.js
+
+# Output files
+.csv
+
+# IDE - VSCode
+.vscode/*
+
+# Dependency directories
+node_modules/
