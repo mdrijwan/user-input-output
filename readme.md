@@ -42,3 +42,4 @@ npm start
 >Type in your input and the output will be printed out in the console. And the CSV file will be saved on the root directory as `output.csv`
 
 ### Demonstration
+![demo](https://github.com/mdrijwan/user-input-output/blob/master/demo.gif)
