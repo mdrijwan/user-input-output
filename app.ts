@@ -4,11 +4,13 @@ const fs = require('fs');
 const ws = fs.createWriteStream("output.csv");
 
 // taking user input to be processed later on
-function userInput (){for(let i=0;i<10;i++) {
+function userInput () {
+  for(let i=0;i<10;i++) {
      let answer = rl.question('Please enter your input: ');
     console.log(`\nYour input: ${answer} \n- - - - - - - - - - - - `);
     return answer;
-}}
+  }
+}
 
 let text = userInput()
 
