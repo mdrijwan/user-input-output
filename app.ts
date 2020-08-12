@@ -17,7 +17,7 @@ let upperCase = text.toUpperCase()
 console.log('\nTask #1(Uppercase):', upperCase)
 
 // converting the string to alternate lower and upper case
-function lowerUpperCase(s:string) {
+export function lowerUpperCase(s:string) {
     return s.split('').map((c,i) => 
         i % 2 == 0 ? c.toLowerCase() : c.toUpperCase()
     ).join('');   
@@ -25,7 +25,7 @@ function lowerUpperCase(s:string) {
 console.log('\nTask #2.1 (alternate lower and upper case):', lowerUpperCase(text))
 
 // converting the string to alternate upper and lower case
-let upperLowerCase = function (s:string) {
+export function upperLowerCase (s:string) {
     let chars = s.toLowerCase().split("");
     for (let i = 0; i < chars.length; i += 2) {
       chars[i] = chars[i].toUpperCase();
