@@ -8,18 +8,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "OOP"
+    "OOP",
+    "TypeScript"
   ],
   "author": "Md Rijwan Razzaq Matin",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^14.0.27",
-    "typescript": "^3.9.7",
     "@types/readline-sync": "^1.4.3"
   },
   "dependencies": {
     "fast-csv": "^4.3.1",
     "readline-sync": "^1.4.10",
+    "typescript": "^3.9.7",
     "ts-loader": "^8.0.2"
   }
 }
